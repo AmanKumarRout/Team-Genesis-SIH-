@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #1e3a8a; /* Tailwind's blue-900 */
+}
+
+footer {
+    background-color: #1e3a8a; /* Tailwind's blue-900 */
+}
+
+#mapContainer {
+    border: 1px solid #e5e7eb; /* Tailwind's gray-300 */
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    h2 {
+        font-size: 2xl;
+    }
+}
