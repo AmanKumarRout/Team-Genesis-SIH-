@@ -10,7 +10,7 @@ function initMap() {
 
   // Example ship route
   const routeCoordinates = [
-    [19.0760, 72.8777],  // Mumbai
+    [19.0760, 72.8770],  // Mumbai
     [6.9271, 79.8612],   // Colombo
     [25.276987, 55.296249]  // Dubai
   ];
